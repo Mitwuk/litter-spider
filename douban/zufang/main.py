@@ -11,12 +11,11 @@ import requests
 import urllib3
 from bs4 import BeautifulSoup
 
-from mail import Mail
 from douban.settings import *
+from mail import Mail
 
 urllib3.disable_warnings()
 
-mail = Mail()
 url_set = set()
 
 
@@ -37,6 +36,7 @@ def spider():
                 subject = '，'.join(k for k in KEYWORDS)
                 # 邮件内容
                 html = '<br>'.join(m for m in mail_html)
+                mail = Mail()
                 mail.send(receiver=RECEIVER, subject=subject, html=html)
             time.sleep(SLEEP_TIME)
         except:
