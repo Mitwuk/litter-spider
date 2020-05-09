@@ -30,6 +30,7 @@ def spider():
                 response = requests.get(url=url, headers=HEADERS, verify=False).content.decode('utf8')
                 # 解析
                 parse(response, mail_html)
+                time.sleep(1)
             # 发邮件
             if len(mail_html) != 0:
                 # 主题
