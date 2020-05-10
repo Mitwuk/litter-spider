@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/10 12:06
 # @author: Mitwuk
-# @description: 获取4虎url列表
+# @description: 获取fourtiger的url列表
 
 from time import sleep
 
