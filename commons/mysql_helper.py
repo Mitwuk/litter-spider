@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/3 11:16
-# @author: Mitnick
+# @author: Mitwuk
 # @description: MySQL工具类
 
 import pymysql.cursors

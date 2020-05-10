@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/2 13:21
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 发邮件工具
 
 import re

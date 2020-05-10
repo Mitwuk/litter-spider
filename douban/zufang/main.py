@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/2 13:33
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 豆瓣租房爬虫
 
 
@@ -12,7 +12,7 @@ import urllib3
 from bs4 import BeautifulSoup
 
 from douban.settings import *
-from mail import Mail
+from commons.mail import Mail
 
 urllib3.disable_warnings()
 

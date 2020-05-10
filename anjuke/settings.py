@@ -1,12 +1,12 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/3 11:42
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 配置文件
 
 ##
 # MySQL配置
 ##
-MYSQL_CONNECTION = {"host": "localhost", "port": 3306, "user": "root", "pwd": "1qaz2wsx", "db": "common"}
+MYSQL_CONNECTION = {"host": "localhost", "port": 3306, "user": "root", "pwd": "root", "db": "anjuke"}
 
 ##
 # 爬虫配置

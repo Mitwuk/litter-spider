@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/2 13:43
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 配置文件
 
 ##
@@ -9,7 +9,7 @@
 # 发送者
 SENDER = '123456789@qq.com'
 # 授权码
-PASSWORD = 'vzyxfsdfdsfgrtgg'
+PASSWORD = 'gdhdjgkkk'
 # 接收者
 RECEIVER = '987654321@qq.com'
 # smtp服务器
@@ -24,6 +24,6 @@ HEADERS = {
 # 搜索的API
 INIT_URL = "https://www.douban.com/group/search?cat=1013&group=146409&sort=time&q={0}"
 # 需要搜索的关键词
-KEYWORDS = ['中山公园', '陆家嘴']
+KEYWORDS = ['川杨新苑']
 # 爬虫休息时间，单位：秒
 SLEEP_TIME = 120

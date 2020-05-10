@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/3 11:32
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 安居客二手房爬虫
 
 import hashlib
@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 from house.anjuke_house_pipeline import AnjukeHousePipeline
-from log_helper import LogHelper
+from commons.log_helper import LogHelper
 from anjuke.settings import *
 
 

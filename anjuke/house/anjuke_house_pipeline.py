@@ -1,10 +1,10 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/3 11:22
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 持久层
 
 
-from mysql_helper import MysqlHelper
+from commons.mysql_helper import MysqlHelper
 
 
 class AnjukeHousePipeline(object):

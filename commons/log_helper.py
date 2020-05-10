@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 # @time: 2020/5/3 11:12
-# @author: Mitnick
+# @author: Mitwuk
 # @description: 日志工具类
 
 import logging
