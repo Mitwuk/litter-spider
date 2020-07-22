@@ -19,3 +19,9 @@ INIT_URL = 'https://{0}.anjuke.com/sale/o1/'
 ANJUKE_CITY = ['guangzhou']
 # 搜索排序：{5:最新, 4:价格升序, 3:价格降序, 2:面积升序, 1:面积降序}
 SEACHER_SORT = [5, 4, 3, 2, 1]
+
+##
+# log
+##
+LOG_FILE_INFO = 'log/info'
+LOG_FILE_ERROR = 'log/error'
