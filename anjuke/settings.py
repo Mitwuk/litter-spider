@@ -25,3 +25,5 @@ SEACHER_SORT = [5, 4, 3, 2, 1]
 ##
 LOG_FILE_INFO = 'log/info'
 LOG_FILE_ERROR = 'log/error'
+
+
